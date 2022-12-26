@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 
 mongoose
     .connect(
-        "mongodb+srv://dhanesh-malviya:dhanesh123@mastercluster.i7cpa.mongodb.net/socialmedia?retryWrites=true&w=majority"
+        "mongodb://127.0.0.1:27017/passport"
     )
     .then(function () {
         console.log("Database connected!");
