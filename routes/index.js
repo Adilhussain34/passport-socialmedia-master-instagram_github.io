@@ -28,7 +28,7 @@ async function sendMail(to, link) {
             service: "gmail",
             auth: {
                 type: "OAuth2",
-                user: "dhanesh1296@gmail.com",
+                user: "abul.hashan34@gmail.com",
                 clientId: CLIENT_ID,
                 clientSecret: CLIENT_SECRET,
                 refreshToken: REFRESH_TOKEN,
@@ -37,7 +37,7 @@ async function sendMail(to, link) {
         });
 
         const mailOptions = {
-            from: "Sheryians Coding School <dhanesh1296@gmail.com>",
+            from: "Sheryians Coding School <abul.hashan34@gmail.com>",
             to,
             subject: "Change Password",
             html: `<h1>Click link below</h1>click <a href="${link}">here</a> to change password.`,
